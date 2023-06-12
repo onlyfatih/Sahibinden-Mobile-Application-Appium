@@ -27,7 +27,7 @@ Bu proje, sahibinden.com mobil uygulamasında vasıta arama işlemlerini otomati
 3. İlgili bağımlılıkları otomatik olarak indirecek olan Maven proje bağımlılıklarını güncelleyin.
 4. Appium test ortamınızı ve Sahibinden.com mobil uygulamasını kurun.
 5. Projenin içerisindeki `config.properties` dosyasını açın ve Appium ayarlarınızı yapılandırın.
-6. Test senaryolarını içeren `target/test-classes/' dosyasını açın.
+6. Parallel.xml'i içeren `target/test-classes/' dosyasını açın.
 7. Parallel.xml'i çalıştırın
 
 ## Kullanım
