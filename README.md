@@ -1,4 +1,4 @@
-# Sahibinden.com Appium Test Otomasyonu
+# Sahibinden-Mobile-Application-Appium
 
 Bu proje, sahibinden.com mobil uygulamasında vasıta arama işlemlerini otomatikleştirmek için geliştirilmiş bir test otomasyonudur. Java programlama dili ve Appium test otomasyon aracı kullanılarak yazılmıştır. Proje, IntelliJ IDEA geliştirme ortamında geliştirilmiştir.
 
