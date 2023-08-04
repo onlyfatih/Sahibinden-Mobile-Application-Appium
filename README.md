@@ -3,7 +3,7 @@
 Bu proje, sahibinden.com mobil uygulamasında vasıta arama işlemlerini otomatikleştirmek için geliştirilmiş bir test otomasyonudur. Java programlama dili ve Appium test otomasyon aracı kullanılarak yazılmıştır. Proje, IntelliJ IDEA geliştirme ortamında geliştirilmiştir.
 
 <p align="center">
-  <img src="[https://landostudio.com/wp-content/uploads/2020/11/beymen-logo.png](https://s0.shbdn.com/assets/images/sahibinden_logo_v13012023:a4a65c5ace0e80eac6171317531b4611.png)" alt="Proje Logo" width="300" />
+  <img src="https://s0.shbdn.com/assets/images/sahibinden_logo_v13012023:a4a65c5ace0e80eac6171317531b4611.png" alt="Proje Logo" width="300" />
 </p>
 
 ## Özellikler
