@@ -1,57 +1,55 @@
 # Sahibinden-Mobile-Application-Appium
 
-Bu proje, sahibinden.com mobil uygulamasında vasıta arama işlemlerini otomatikleştirmek için geliştirilmiş bir test otomasyonudur. Java programlama dili ve Appium test otomasyon aracı kullanılarak yazılmıştır. Proje, IntelliJ IDEA geliştirme ortamında geliştirilmiştir.
+This project is a test automation developed to automate vehicle search operations on the sahibinden.com mobile application. It is written in the Java programming language using the Appium test automation tool. The project is developed in the IntelliJ IDEA development environment.
 
-<p align="center">
-  <img src="https://s0.shbdn.com/assets/images/sahibinden_logo_v13012023:a4a65c5ace0e80eac6171317531b4611.png" alt="Proje Logo" width="300" />
-</p>
+![Project Logo](https://s0.shbdn.com/assets/images/sahibinden_logo_v13012023:a4a65c5ace0e80eac6171317531b4611.png)
 
-## Özellikler
+## Features
 
-- Sahibinden.com mobil uygulamasına oturum açma
-- Vasıta arama sayfasına yönlendirme
-- Arama sonuçlarını ülke ve şehir seçerek filtreleme
-- Marka, model ve motor gücü filtrelemesi yapma
-- Fiyat aralığına göre sonuçları filtreleme
-- En az ve en çok değer olarak belirtilen fiyat aralığı ve para birimini giriş yapma
-- Sonuçların ekrana getirilip getirilmediğini kontrol etme
+- Sign in to the sahibinden.com mobile application
+- Navigate to the vehicle search page
+- Filter search results by country and city
+- Filter by brand, model, and engine power
+- Filter results by price range
+- Enter minimum and maximum price values and currency
+- Check if the results are displayed on the screen
 
-## Gereksinimler
+## Requirements
 
-- Java 8 veya üzeri ve coretto-1.8 SDK
-- IntelliJ IDEA veya başka bir Java IDE
-- Appium test otomasyon aracı
-- Sahibinden.com mobil uygulaması
+- Java 8 or above and coretto-1.8 SDK
+- IntelliJ IDEA or any other Java IDE
+- Appium test automation tool
+- Sahibinden.com mobile application
 - Appium Server
 
-## Kurulum
+## Installation
 
-1. Bu projeyi GitHub'dan indirin veya kopyalayın.
-2. IntelliJ IDEA veya tercih ettiğiniz Java IDE'de projeyi açın.
-3. İlgili bağımlılıkları otomatik olarak indirecek olan Maven proje bağımlılıklarını güncelleyin.
-4. Appium test ortamınızı ve Sahibinden.com mobil uygulamasını kurun.
-5. Projenin içerisindeki `config.properties` dosyasını açın ve Appium ayarlarınızı yapılandırın.
-6. Parallel.xml'i içeren `target/test-classes/' dosyasını açın.
-7. Parallel.xml'i çalıştırın
+1. Download or clone this project from GitHub.
+2. Open the project in IntelliJ IDEA or your preferred Java IDE.
+3. Update the necessary dependencies that will be automatically downloaded by Maven.
+4. Set up your Appium test environment and install the Sahibinden.com mobile application.
+5. Open the `config.properties` file inside the project and configure your Appium settings.
+6. Open the `parallel.xml` file in the `target/test-classes/` folder.
+7. Run the `parallel.xml`.
 
-## Kullanım
+## Usage
 
-1. Test senaryolarını içeren `src/test/java` klasöründe bulunan dosyaları inceleyin.
-2. Her test senaryosu için ayrı ayrı parametrelerin nasıl ayarlanacağını ve hangi adımların izleneceğini anlamak için ilgili dosyaların içeriğini inceleyin.
-3. Sahibinden.com mobil uygulamasında vasıta arama işlemlerini otomatikleştirmek için mevcut senaryoları temel alabilir ve gerektiğinde özelleştirebilirsiniz.
+1. Review the files located in the `src/test/java` folder containing the test scenarios.
+2. Examine the contents of the relevant files to understand how parameters are set and which steps are followed for each test scenario.
+3. You can use the existing scenarios as a basis to automate vehicle search operations on the sahibinden.com mobile application and customize them as needed.
 
-## Katkıda Bulunma
+## Contribution
 
-1. Bu projeyi fork edin.
-2. Yeni bir dal (branch) oluşturun: `git checkout -b yeni-ozellik`
-3. Değişikliklerinizi yapın ve bunları kaydedin: `git commit -am 'Yeni özellik eklendi'`
-4. Dalınıza gönderin: `git push origin yeni-ozellik`
-5. Bir Pull Request oluşturun.
+1. Fork this project.
+2. Create a new branch: `git checkout -b new-feature`
+3. Make your changes and commit them: `git commit -am 'Added new feature'`
+4. Push your branch: `git push origin new-feature`
+5. Create a Pull Request.
 
-## Lisans
+## License
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasını inceleyin.
+This project is licensed under the MIT License. For more information, please see the [LICENSE](LICENSE) file.
 
 ---
 
-Bu README şablonunu kullanarak kendi proje detaylarınıza ve gereksinimlerinize göre düzenlemeler yapabilirsiniz.
+You can customize this README template according to your project details and requirements.
